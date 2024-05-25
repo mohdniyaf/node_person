@@ -27,7 +27,7 @@ router.get('/', async (req, res) => {
         res.status(500).json({ err: "internal error" });
     }
 });
-
+//worktypevevv sss
 router.get('/:workType', async (req, res) => {
     try {
         const workType = req.params.workType;
